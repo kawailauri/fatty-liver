@@ -1,6 +1,6 @@
 {
   "name": "fatty-liver",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "private": true,
   "type": "module",
   "scripts": {
@@ -11,11 +11,14 @@
   "dependencies": {
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "recharts": "^2.12.7"
+    "recharts": "^2.15.0"
   },
   "devDependencies": {
-    "@vitejs/plugin-react": "^4.3.1",
-    "vite": "^5.4.2",
-    "vite-plugin-pwa": "^0.20.5"
+    "@vitejs/plugin-react": "^6.0.1",
+    "vite": "^8.0.8",
+    "vite-plugin-pwa": "^1.2.0"
+  },
+  "overrides": {
+    "glob": "^11.1.0"
   }
 }
